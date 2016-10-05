@@ -1,10 +1,28 @@
 #!/bin/bash
 PUBLISH_TO=/c/Users/jordan.kanter/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/United/
-if [ "${1}" = "" ]; then
+PLATFORM=$(exec uname -o)
+REMOTE_HOST=
+FORMATTING_SCRIPT="javascript:(function(){ document.querySelector('h1').setAttribute('style', 'visibility:hidden'); document.querySelector('h2').setAttribute('style', 'visibility:hidden'); document.querySelector('nav h2').setAttribute('style', 'visibility:hidden');})()"
+if [[ "${1}" = "" ]]; then
   echo "usage: doc.sh <action>"; exit 1;
 fi
-if [ "${1}" = "run" ]; then
+
+
+if [ "${1}" = "run" ] && [ "${2}" = "" ]; then
   node_modules/jsdoc/jsdoc.js --verbose DataLayer-Map.js
+elif [ "${1}" = "run" ] && [ "${2}" = "sdr" ]; then
+  echo "generating an sdr"
+  if [[ "${PLATFORM}" -eq "Msys" ]]; then
+    /c/Program\ Files/wkhtmltopdf/bin/wkhtmltopdf.exe --javascript-delay 500 --debug-javascript --run-script "${FORMATTING_SCRIPT}" out/index.html out/sdr.pdf
+  else
+    wkhtmltopdf --javascript-delay 500 --debug-javascript --run-script "${FORMATTING_SCRIPT}" out/index.html out/sdr.pdf
+  fi
+elif [ "${1}" = "run" ] && [ "${2}" = "tag-map" ]; then
+  if [[ "${PLATFORM}" -eq "Msys" ]]; then
+  /c/Program\ Files/wkhtmltopdf/bin/wkhtmltopdf.exe --javascript-delay 500 --debug-javascript --run-script "${FORMATTING_SCRIPT}" out/index.html out/tag-map.pdf
+  else
+    wkhtmltopdf --javascript-delay 500 --debug-javascript --run-script "${FORMATTING_SCRIPT}" out/index.html out/tag-map.pdf
+  fi
 elif [ "${1}" = "publish" ]; then
   cp -r out/ ${PUBLISH_TO}
   cp DataLayer-Map.js ${PUBLISH_TO}
