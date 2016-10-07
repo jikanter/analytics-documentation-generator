@@ -11,6 +11,13 @@
  * <li>Prose, in the comments</li>
  * </ol>
  *
+ * Also, please note that this documentation outputs to the following Client-Facing documentation
+ * <ol>
+ *   <li>A Solution Design Reference (<abbr>SDR</abbr>)</li>
+ *   <li>A Tag Map</li>
+ *   <li>A Business requirements document</li>
+ * </ol>
+ *
  * You can follow along using the generated html from the <code>jsdoc</code>, the inline code, or by reading the comments/code.
  * You can follow along using the generated html from the <code>jsdoc</code>, the inline code, or by reading the comments/code.
  * You can also generate the contents yourself with jsdoc by installing using npm and running:
