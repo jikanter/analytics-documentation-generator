@@ -2,9 +2,9 @@
 var csv = require('to-csv');
 var map = require('./DataLayer-Map.js');
 
-var flattenObject = function(ob) {
+var flattenObject = function _flattenObject(ob) {
 	var toReturn = {};
-  
+
 	for (var i in ob) {
 		if (!ob.hasOwnProperty(i)) { continue; }
 		
@@ -22,8 +22,8 @@ var flattenObject = function(ob) {
 	return toReturn;
 };
 
-var appendTypeOfValueToKey = function(o) { 
-  for (i in o) { 
+var appendTypeOfValueToKey = function _appendTypeOfValueToKey(o) {
+  for (i in o) {
     o[i + '<' + (typeof o[i]) + '>'] = o[i];
     delete o[i];
   }
