@@ -4,7 +4,7 @@ var map = require('./DataLayer-Map.js');
 
 var flattenObject = function(ob) {
 	var toReturn = {};
-	
+  
 	for (var i in ob) {
 		if (!ob.hasOwnProperty(i)) { continue; }
 		

@@ -31,7 +31,7 @@ elif [ "${1}" = "publish" ]; then
   cp DataLayer-Map.js ${PUBLISH_TO}
 elif [ "${1}" = "run-csv" ]; then
   # just experimental. Do not use
-  ./js2csv.js
+  node ./js2csv.js
 elif [ "${1}" = "run-pdf" ]; then
   # just experimental. Do not use
   ./js2pdf.js

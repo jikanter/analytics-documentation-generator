@@ -1572,7 +1572,11 @@ var copyUAObject = function(obj) {
  * @namespace
  * @see {@link UA}
  */
-UA._example = require('_dl_map_dat.json');
+try {
+  UA._example = require('_dl_map_dat.json');
+} catch (e) {
+  UA._example = {};
+}
 
 function runDeployment() { }
 
