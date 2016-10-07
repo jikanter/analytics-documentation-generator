@@ -19,9 +19,7 @@
  * </ol>
  *
  * You can follow along using the generated html from the <code>jsdoc</code>, the inline code, or by reading the comments/code.
- * You can follow along using the generated html from the <code>jsdoc</code>, the inline code, or by reading the comments/code.
- * You can also generate the contents yourself with jsdoc by installing using npm and running:
- * <pre>npm install jsdoc</pre>
+ * You can also generate the comments yourself by following the directions in the README.md 
  * Please note that this is not the actual data layer, but documentation about the data layer
  *
  */
