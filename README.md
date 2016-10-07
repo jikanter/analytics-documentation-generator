@@ -14,6 +14,15 @@ the bash shell for windows at (http://git-scm.com/download/win)
 4. $ chmod +x doc.sh # make it executable 
 5. $ ./doc.sh run # generate your directory
 
+
+Business Users:
+
+To edit a Data Layer Map, navigate to "Repository" in the gitlab menu
+Click on the "DataLayer-Map.js" file
+Click edit to make changes. 
+Click commit to change back.
+
+
 This creates a fancy HTML file with your data layer map file.
 
 TODO: add custom filters to output PDF/CSV
