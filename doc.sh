@@ -13,13 +13,15 @@ if [ "${1}" = "run" ] && [ "${2}" = "" ]; then
   node_modules/jsdoc/jsdoc.js --verbose DataLayer-Map.js
 elif [ "${1}" = "run" ] && [ "${2}" = "sdr" ]; then
   echo "generating an sdr"
-  if [[ "${PLATFORM}" -eq "MINGW" ]]; then
+  node_modules/jsdoc/jsdoc.js --verbose DataLayer-Map.js
+  if [ "${PLATFORM}" = "MINGW" ]; then
     /c/Program\ Files/wkhtmltopdf/bin/wkhtmltopdf.exe --javascript-delay 500 --debug-javascript --run-script "${FORMATTING_SCRIPT}" out/index.html out/sdr.pdf
   else
-    wkhtmltopdf --javascript-delay 500 --degbug-javascript --run-script "${FORMATTING_SCRIPT}" out/index.html out/sdr.pdf
+    wkhtmltopdf --javascript-delay 500 --debug-javascript --run-script "${FORMATTING_SCRIPT}" out/index.html out/sdr.pdf
   fi
 elif [ "${1}" = "run" ] && [ "${2}" = "tag-map" ]; then
-  if [[ "${PLATFORM}" -eq "MINGW" ]]; then
+   node_modules/jsdoc/jsdoc.js --verbose DataLayer-Map.js
+  if [ "${PLATFORM}" = "MINGW" ]; then
   /c/Program\ Files/wkhtmltopdf/bin/wkhtmltopdf.exe --javascript-delay 500 --debug-javascript --run-script "${FORMATTING_SCRIPT}" out/index.html out/tag-map.pdf
   else
     wkhtmltopdf --javascript-delay 500 --debug-javascript --run-script "${FORMATTING_SCRIPT}" out/index.html out/tag-map.pdf
