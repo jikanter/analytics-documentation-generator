@@ -1,0 +1,275 @@
+Variable,Used For,,Pearle Vision,Target Optical,LensCrafters,Sunglass Hut,Sears Optical
+"s.events=""prodView""",,,,X,X,X,X
+"s.events=""scOpen""",,,,X,X,X,X
+"s.events=""scAdd""",,,,X,X,X,X
+"s.events=""scView""",Cart Views,,,X,X,X,X
+"s.events=""scCheckout""",Checkouts,,,X,X,X,X
+"s.events=""purchase""",,,,X,X,X,X
+"s.events=""purchase"" with s.products",,,,X,X,X,X
+"s.events=""purchase"" with s.products",,,,X,X,X,X
+"s.events=""event1""",Email: Subscriptions,,X,X,X,X,X
+"s.events=""event2""",Email: Un-Subscribe,,X,X,X,X,X
+"s.events=""event3""",Store Locator: Searches,,X,X,X,X,X
+"s.events=""event4""",Store Locator: Null Results,,X,X,X,X,X
+"s.events=""event5""",Internal Campaign Clicked,,X,X,X,X,X
+"s.events=""event6""",Appointment Scheduler: Started,,X,X,X,,X
+"s.events=""event7""",Appointment Scheduler: Step 2,,X,X,X,,X
+"s.events=""event8""",Appointment Scheduler: Completed,,X,X,X,,X
+"s.events=""event9""",Appointment Scheduler: Modified,,X,X,X,,X
+"s.events=""event10""",Appointment Scheduler: Deleted,,X,X,X,,X
+"s.events=""event11""",Add to my contacts,,X,,X,X,X
+"s.events=""event12""",Click to Call,,X,X,X,X,X
+"s.events=""event13""",Social Share,,X,X,X,X,X
+"s.events=""event14""",Print Coupons,,X,,X,X,X
+"s.events=""event15""",Registration,,,,X,X,X
+"s.events=""event16""",Product View (custom),,,,X,X,X
+"s.events=""event17""",Product Quick View (custom),,,,X,X,X
+"s.events=""event18""",Onsite Search: Null Results,,,X,X,X,X
+"s.events=""event19""",Onsite Search: Searches,,,X,X,X,X
+"s.events=""event20""",Product Refinement,,,X,X,X,X
+"s.events=""event21""",Product Refinement: Narrow Facet 1,,,,X,X,X
+"s.events=""event22""",Product Refinement: Narrow Facet 2,,,,X,X,X
+"s.events=""event23""",Product Refinement: Narrow Facet 3,,,,X,X,X
+"s.events=""event24""",Checkout: Address,,,X,X,X,X
+"s.events=""event25""",Checkout: Shipping/Billing,,,X,X,X,X
+"s.events=""event26""",Checkout: Order Summary,,,X,X,X,X
+"s.events=""event27""",Potential Revenue,,,X,X,X,X
+"s.events=""event28""",Checkout: Promo Dollar Ammount,,,X,X,X,X
+"s.events=""event29""",Promo Code Used,,,X,X,X,X
+"s.events=""event30""",Add to Wishlist,,,X,X,X,X
+"s.events=""event31""",Bazaarvoice Product Reviews,,,,X,X,X
+"s.events=""event32""",Bazaarvoice Review Completion,,,,X,X,X
+"s.events=""event33""",,,,,,,X
+"s.events=""event34""",Login,,,X,,X,
+"s.events=""event35""",Appointment Scheduler: Repeat Customer,,,X,X,,
+"s.events=""event36""",checkout: cart page,,,,,x,X
+"s.events=""event37""",,,,,,,
+"s.events=""event38""",,,,,,,
+"s.events=""event39""",Brand Specific,,,,X,,
+"s.events=""event40""",Brand Specific,,,,X,,X
+"s.events=""event41""",Brand Specific,,,,X,,X
+"s.events=""event42""",Brand Specific,,,,X,,X
+"s.events=""event43""",Brand Specific,,,,X,,X
+"s.events=""event44""",Brand Specific,,,,X,,
+"s.events=""event45""",Brand Specific,,,,X,,
+"s.events=""event46""",Brand Specific,,,,X,,
+"s.events=""event47""",Brand Specific,,,,X,,
+"s.events=""event48""",Brand Specific,,,,X,,
+"s.events=""event49""",Brand Specific,,,,X,,
+"s.events=""event50""",Brand Specific,,,,X,,
+"s.events=""event51""",Brand Specific,,X,X,X,X,X
+"s.events=""event52""",Brand Specific,,X,X,X,X,X
+"s.events=""event53""",Brand Specific,,X,,X,,X
+"s.events=""event54""",Brand Specific,,X,,X,,X
+"s.events=""event55""",Brand Specific,,,X,X,,X
+"s.events=""event56""",Brand Specific,,,,X,,X
+"s.events=""event57""",Brand Specific,,,X,X,,
+"s.events=""event58""",Brand Specific,,,X,X,,
+"s.events=""event59""",Brand Specific,,,X,X,,X
+"s.events=""event60""",Brand Specific,,,,X,X,X
+"s.events=""event61""",Brand Specific,,,,X,X,
+"s.events=""event62""",Brand Specific,,,X,X,X,
+"s.events=""event63""",Brand Specific,,,X,X,X,X
+"s.events=""event64""",Brand Specific,,,,X,X,
+"s.events=""event65""",Brand Specific,,,,X,X,
+"s.events=""event66""",Brand Specific,,,,X,X,
+"s.events=""event67""",Brand Specific,,,,X,X,X
+"s.events=""event68""",Brand Specific,,,,X,X,X
+"s.events=""event69""",Brand Specific,,,,X,X,
+"s.events=""event70""",Brand Specific,,,,X,X,
+"s.events=""event71""",Brand Specific,,,,X,X,
+"s.events=""event72""",Brand Specific,,,,X,X,
+"s.events=""event73""",Brand Specific,,,,X,X,
+"s.events=""event74""",Brand Specific,,,,X,X,
+"s.events=""event75""",Brand Specific,,,,X,X,
+"s.events=""event76""",Brand Specific,,,,X,X,
+"s.events=""event77""",Brand Specific,,,,X,X,
+"s.events=""event78""",Brand Specific,,,,X,X,
+"s.events=""event79""",Brand Specific,,,,X,X,X
+"s.events=""event80""",Brand Specific,,,,X,X,
+"s.events=""event81""",Brand Specific,,,,X,,X
+"s.events=""event82""",Brand Specific,,,,X,,
+"s.events=""event83""",,,,,,,X
+"s.events=""event84""",Brand Specific,,,,X,,X
+"s.events=""event85""",,,,,,,X
+"s.events=""event86""",,,,,,,X
+"s.events=""event87""",,,,,,,X
+"s.events=""event88""",Brand Specific,,,,X,,X
+"s.events=""event89""",,,,,,,X
+"s.events=""event90""",,,,,,,X
+"s.events=""event91""",Brand Specific,,,,X,,X
+"s.events=""event92""",Brand Specific,,,,X,,X
+"s.events=""event93""",Brand Specific,,,,X,,X
+"s.events=""event94""",Brand Specific,,,,X,,X
+"s.events=""event95""",Brand Specific,,,,X,,X
+"s.events=""event96""",Brand Specific,,,,X,,X
+"s.events=""event97""",Brand Specific,,,,X,,X
+"s.events=""event98""",Brand Specific,,,,X,,X
+"s.events=""event99""",Brand Specific,,,,X,,X
+"s.events=""event100""",,,,,,,
+s.pageName,Page Name,,X,X,X,X,
+s.channel,Site Section,,X,X,X,X,X
+s.server,Server,,X,X,X,X,X
+s.pageType,Error Page,,X,X,X,X,X
+s.prop1,Appointment Scheduler: Previous Exam,,X,X,X,X,X
+s.prop2,Appointment Scheduler: Contact Fitting,,X,X,X,X,X
+s.prop3,Time Parting,,X,X,X,X,X
+s.prop4,Product Refinement,,,X,X,X,X
+s.prop5,Site Subsection,,X,X,X,X,X
+s.prop6,Site Sub-subsection,,X,X,X,X,X
+s.prop7,Days Since Last Visit,,X,X,X,X,X
+s.prop8,New vs. Repeat,,X,X,X,X,X
+s.prop9,Visit Number,,X,X,X,X,X
+s.prop10,Percent Page Viewed,,,X,X,X,X
+s.prop11,Logged-In Status,,X,X,X,X,X
+s.prop12,Site Version,,X,X,X,X,X
+s.prop13,Site Country,,X,X,X,X,X
+s.prop14,Site Language,,X,X,X,X,X
+s.prop15,Appointment Scheduler: Date,,X,X,X,,X
+s.prop16,Appointment Scheduler: Days in Advance,,X,X,X,,X
+s.prop17,Appointment Scheduler: Time,,X,X,X,,X
+s.prop18,Content Type,,,,X,X,X
+s.prop19,Report Suite,,X,X,X,X,X
+s.prop20,,,,,,,X
+s.prop21,Previous Page Name,,,,X,X,
+s.prop22,,,,,,,X
+s.prop23,,,,,,,
+s.prop24,,,,,,,
+s.prop25,,,,,,,
+s.prop26,,,,,,,
+s.prop27,,,,,,,
+s.prop28,,,,,,,
+s.prop29,,,,,,,
+s.prop30,,,,,,,
+s.prop31,,,,,,,
+s.prop32,,,,,,,
+s.prop33,,,,,,,
+s.prop34,,,,,,,
+s.prop35,,,,,,,
+s.prop36,,,,,,,
+s.prop37,,,,,,,
+s.prop38,,,,,,,
+s.prop39,,,,,,,
+s.prop40,Brand Specific,,X,,,X,
+s.prop41,Brand Specific,,,,X,X,X
+s.prop42,Brand Specific,,,,X,X,X
+s.prop43,,,,,,,X
+s.prop44,Brand Specific,,,,,X,X
+s.prop45,Brand Specific,,,,X,,X
+s.prop46,,,,,,,
+s.prop47,Brand Specific,,,,X,,
+s.prop48,,,,,,,
+s.prop49,,,,,,,
+s.prop50,,,,,,,
+s.prop51,,,,,,,X
+s.prop52,Brand Specific,,,,X,,X
+s.prop53,,,,,,,X
+s.prop54,,,,,,,X
+s.prop55,,,,,,,
+s.prop56,,,,,,,
+s.prop57,,,,,,,
+s.prop58,,,,,,,
+s.prop59,,,,,,,
+s.prop60,,,,,,,
+s.prop61,Brand Specific,,,,X,,
+s.prop62,,,,,,,X
+s.prop63,,,,,,,
+s.prop64,,,,,,,
+s.prop65,,,,,,,
+s.prop66,,,,,,,
+s.prop67,,,,,,,
+s.prop68,,,,,,,
+s.prop69,,,,,,,
+s.prop70,,,,,,,
+s.prop71,,,,,,,
+s.prop72,,,,,,,
+s.prop73,,,,,,,
+s.prop74,,,,,,,
+s.prop75,,,,,,,
+s.hier1,,,,,,,
+s.hier2,,,,,,,X
+s.hier3,,,,,,,
+s.hier4,,,,,,,
+s.hier5,,,,,,,
+s.products,,,,X,X,X,
+s.purchaseID,,,,X,X,X,X
+s.State,,,,,,,X
+s.zip,,,,X,X,X,X
+s.campaign,External Campaigns,,X,X,X,X,X
+s.eVar1,Page Name,,X,X,X,X,X
+s.eVar2,Visitor DMA,,X,X,X,X,X
+s.eVar3,Time Parting,,X,X,X,X,X
+s.eVar4,Site Section,,X,X,X,X,X
+s.eVar5,Site Subsection,,X,X,X,X,X
+s.eVar6,Site Sub-subsection,,X,X,X,X,X
+s.eVar7,Days Since Last Visit,,X,X,X,X,X
+s.eVar8,New vs. Repeat,,X,X,X,X,X
+s.eVar9,Visit Number,,X,X,X,X,X
+s.eVar10,Internal Campaigns,,X,X,X,X,X
+s.eVar11,Logged-In Status,,X,X,X,X,X
+s.eVar12,Site Version,,X,X,X,X,X
+s.eVar13,Site Country,,X,X,X,X,X
+s.eVar14,Site Language,,X,X,X,X,X
+s.eVar15,Store Locator: Search Term,,X,X,X,X,X
+s.eVar16,Appointment Scheduler: Multiple Bookings,,X,X,X,,X
+s.eVar17,Promo Codes,,X,X,X,X,X
+s.eVar18,Social Interactions,,X,X,X,X,X
+s.eVar19,Report Suite,,X,X,X,X,X
+s.eVar20,Onsite Search: Keyword,,,X,X,X,X
+s.eVar21,Previous Page Name,,,,X,X,X
+s.eVar22,Onsite Search: # of Results,,,,X,X,X
+s.eVar23,Product Refinement: Sort,,,X,X,X,X
+s.eVar24,Product Refinement: Narrow,,,X,X,X,X
+s.eVar25,Checkout Type,,,X,X,X,X
+s.eVar26,Wishlist: Product,,,,X,X,X
+s.eVar27,Product Finding Method,,,X,X,X,X
+s.eVar28,Payment Method,,,X,X,X,X
+s.eVar29,Shipping Method,,,X,X,X,X
+s.eVar30,Email: Subscription Type,,,X,X,X,X
+s.eVar31,Parent SKU,,,X,X,X,
+s.eVar32,CRM - Customer ID,,,,,X,
+s.eVar33,,,,,,,
+s.eVar34,,,,,,,
+s.eVar35,,,,,,,
+s.eVar36,,,,,,,
+s.eVar37,,,,,,,
+s.eVar38,,,,,,,
+s.eVar39,,,,,,,X
+s.eVar40,Brand Specific,,,,X,X,X
+s.eVar41,Brand Specific,,,X,X,X,X
+s.eVar42,Brand Specific,,,X,X,,X
+s.eVar43,Brand Specific,,,X,X,X,X
+s.eVar44,Brand Specific,,,,X,X,X
+s.eVar45,Brand Specific,,,,X,,X
+s.eVar46,Brand Specific,,,,X,X,X
+s.eVar47,Brand Specific,,,,X,,X
+s.eVar48,Brand Specific,,,,X,X,X
+s.eVar49,Brand Specific,,,,X,X,X
+s.eVar50,Brand Specific,,,,,X,X
+s.eVar51,Brand Specific,,,X,X,X,
+s.eVar52,Brand Specific,,,,X,X,X
+s.eVar53,Brand Specific,,,,X,X,X
+s.eVar54,Brand Specific,,,,X,X,X
+s.eVar55,Brand Specific,,,,,X,X
+s.eVar56,Brand Specific,,,,,X,X
+s.eVar57,Brand Specific,,,,,X,X
+s.eVar58,Brand Specific,,,,,X,X
+s.eVar59,Brand Specific,,,,,X,X
+s.eVar60,Brand Specific,,,,X,X,X
+s.eVar61,Brand Specific,,,,X,,X
+s.eVar62,Brand Specific,,X,,X,,X
+s.eVar63,Brand Specific,,,,X,,X
+s.eVar64,Brand Specific,,,,X,,X
+s.eVar65,Brand Specific,,,,X,,
+s.eVar66,,,,,,,
+s.eVar67,,,,,,,
+s.eVar68,,,,,,,
+s.eVar69,,,,,,,
+s.eVar70,,,,,,Monetate (v70),
+s.eVar71,,,,,,CountryModal (v71),
+s.eVar72,,,,,,Glasses.com Prod Id (v72),
+s.eVar73,,,,,,Internal Campaigns First Touch (v73),X
+s.eVar74,Brand Specific,,,,X,Internal Campaigns Linear (v74),X
+s.eVar75,Brand Specific,,,,X,ClickTale ID(v75),
+,,,,,,,
+,,,,,,,

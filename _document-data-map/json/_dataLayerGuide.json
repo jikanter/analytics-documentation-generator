@@ -1,0 +1,714 @@
+[
+  {
+    "SearsOptical.com Tag Specs": "Page - Element",
+    "3/27/15": "Request Type",
+    "Site_Events": "",
+    "Global Variables": "page[level_1]",
+    "": "",
+    "Page/Event Specific Variables": "zip_code"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Global Elements",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Search",
+    "3/27/15": "Page Load",
+    "Site_Events": "successful_search",
+    "Global Variables": "search",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Search",
+    "3/27/15": "Page Load",
+    "Site_Events": "unsuccessful_search",
+    "Global Variables": "search",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Search",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "successful_search, successful_search_recommend",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Special Offers Opt-In",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "email_signup",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "De-Authentication (Sign-Out)",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "sign_out",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Password Reset",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "forgot_password",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Banner Click-thru",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "banner_click",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Section: Home",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Homepage",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "home",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Section: Catalog",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Category Landing Page",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "<category e.g., mens or brands>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Product List Page",
+    "3/27/15": "Page Load",
+    "Site_Events": "product_list_page",
+    "Global Variables": "<category e.g., mens or brands>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Product List Page",
+    "3/27/15": "in-page interaction",
+    "Site_Events": "modify_filter",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Product List Page",
+    "3/27/15": "in-page interaction",
+    "Site_Events": "select_product",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Product List Page",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "initiate_favorites",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Product List Page",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "add_to_favorites",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Product List Page",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "add_to_compare",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Product List Page",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "remove_from_compare",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Product Details Page",
+    "3/27/15": "Page Load",
+    "Site_Events": "product_view",
+    "Global Variables": "<category e.g., mens or brands>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Product Details Page",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "add_to_favorites",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Section: Eye Care",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Eye Care Category Landing Page",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "eye care",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Eye Care > Lenses > materials and enhancements",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "eye care",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Eye Care > Lenses > polarized",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "eye care",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Eye Care > Lenses > tech view",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "eye care",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Eye Care > Insurance Coverage > benefits",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "eye care",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Eye Care > Insurance Coverage > AAA members",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "eye care",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Eye Care > Insurance Coverage > AARP members",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "eye care",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Eye Care > Insurance Coverage > eyewear protection plan",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "eye care",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "EyeCare > Your Health",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "eye care",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Section:Corporate",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Customer Care - Privacy",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "customer care",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Customer Care - Contact Sears Optical",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "customer care",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Customer Care - Contact Sears Optical - Confirmation",
+    "3/27/15": "in-page interaction",
+    "Site_Events": "contact_us",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Customer Care - Frequently Asked Questions",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "customer care",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Customer Care - Shop Your Way",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "customer care",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Corporate Page - About Sears Optical",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "about us",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Corporate Page - One World, One Passion, OneSight",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "about us",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Corporate Page - Careers",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "about us",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Site Map",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "site map",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Section: Features",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Product Compare - Default",
+    "3/27/15": "Page Load",
+    "Site_Events": "compare_products",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Product Compare - Default",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "add_to_favorites",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Offers Page",
+    "3/27/15": "Page Load",
+    "Site_Events": "view_offers",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "My Account - Dashboard - Overview",
+    "3/27/15": "Page Load",
+    "Site_Events": "sign_in",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "My Account - Dashboard - Complete State",
+    "3/27/15": "Page Load",
+    "Site_Events": "new_account, authentication_complete, email_signup",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "My Account - Dashboard - Edit Profile",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Favorites Page",
+    "3/27/15": "Page Load",
+    "Site_Events": "view_favorites",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Favorites Page",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "remove_from_favorites",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Section: Find a Location",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Find a Location - Default",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Find a Location - Default",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "store_locator_submit_zip",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Find a Location - Results",
+    "3/27/15": "Page Load",
+    "Site_Events": "find_store",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Find a Location - Schedule an Exam",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "schedule_exam_cta",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Find a Location Results - View Doctor Info & Hours",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "view_doctor_info",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Find a Location Results - View Store Hours",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "view_store_hours",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Find a Location Results - View Store Hours",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "get_directions",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Find a Location Results - Set Preferred Store",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "set_pref_store",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Find a Location Results - Call to Schedule",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "call_to_schedule",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Get Directions Page",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Section: Schedule An Eye Exam",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Schedule Eye Exam - Step 1 - Location",
+    "3/27/15": "Page Load",
+    "Site_Events": "",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Schedule Eye Exam - Step 1 - Location Results",
+    "3/27/15": "Page Load",
+    "Site_Events": "exam_scheduler_find_store",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Schedule Eye Exam - Step 2 - Schedule",
+    "3/27/15": "Page Load",
+    "Site_Events": "exam_scheduler_schedule",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Schedule Eye Exam - Step 3 - Review",
+    "3/27/15": "Page Load",
+    "Site_Events": "exam_scheduler_review",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Schedule Eye Exam - Step 4 - Confirmation",
+    "3/27/15": "Page Load",
+    "Site_Events": "exam_scheduler_complete",
+    "Global Variables": "feature",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Edit Eye Exam",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "edit_exam",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "Remove Eye Exam",
+    "3/27/15": "In-page Interaction",
+    "Site_Events": "remove_exam",
+    "Global Variables": "<inherit from _dl>",
+    "": "",
+    "Page/Event Specific Variables": "<zip>"
+  },
+  {
+    "SearsOptical.com Tag Specs": "",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "NOTATION & COLORS",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "<…> = Value dependent on Plan logic",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "[…] = Array variable",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "White = Current & correct tagging before this revision",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Orange = New in this revision of the file",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Blue = Global Dynamic Variable",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Purple Font = See Data Layer Guide",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  },
+  {
+    "SearsOptical.com Tag Specs": "Yellow = Need to be reviewed with team",
+    "3/27/15": "",
+    "Site_Events": "",
+    "Global Variables": "",
+    "": "",
+    "Page/Event Specific Variables": ""
+  }
+]
