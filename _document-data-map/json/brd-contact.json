@@ -1,0 +1,37 @@
+[
+  {
+    "Stratigent Contact Name": 1,
+    "Title": "Bill Bruno",
+    "Email": "CEO",
+    "Phone": "bill@stratigent.com",
+    "": ""
+  },
+  {
+    "Stratigent Contact Name": 2,
+    "Title": "Erin Cropper",
+    "Email": "Manager of Client Services",
+    "Phone": "erin@stratigent.com",
+    "": ""
+  },
+  {
+    "Stratigent Contact Name": 3,
+    "Title": "Adam McArdell",
+    "Email": "Senior Consultant",
+    "Phone": "adam.mcardell@stratigent.com",
+    "": ""
+  },
+  {
+    "Client Contact Name": 1,
+    "Title": "Valerie Lambert",
+    "Email": "Manager, Digital Analytics",
+    "Phone": "Valerie.Lambert@ama-assn.org",
+    "": ""
+  },
+  {
+    "Client Contact Name": 2,
+    "Title": "Alek Toumert",
+    "Email": "Digital Analyst",
+    "Phone": "Alek.Toumert@ama-assn.org",
+    "": ""
+  }
+]

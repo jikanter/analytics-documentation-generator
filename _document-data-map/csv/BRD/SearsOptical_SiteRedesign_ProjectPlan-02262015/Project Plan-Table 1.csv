@@ -1,0 +1,48 @@
+Date,"Week 1
+16-Feb","Week 2
+23-Feb","Week 3
+2-Mar","Week 4
+9-Mar","Week 5
+16-Mar","Week 6
+23-Mar","Week 7
+30-Mar","Week 8
+6-Apr","Week 9
+13-Apr","Week 10
+20-Apr","Week 11
+27-Apr","Week 12
+4-May","Week 13
+11-May","Week 14
+18-May","Week 15
+25-May","Week 16
+1-Jun","Week 17
+8-Jun","Week 18
+15-Jun","Week 19
+22-Jun","Week 20
+29-Jun","Week 21
+6-Jul",Completion Date,Deliverable,Responsible Party,Status,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Requirements Gathering,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Business Stakeholder Interviews,,,,,,,,,,,,,,,,,,,,,,5-Mar,,Stratigent/Sears Optical,In Progress,,,,
+Business Requirements Documentation,,,,,,,,,,,,,,,,,,,,,,3-Mar,Business Requirements,Stratigent,In Progress,,,,
+Requirements Signoff,,,,,,,,,,,,,,,,,,,,,,5-Mar,Requirements Signoff,Sears Optical,,,,,
+Technical Implementation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CA/EN Comparison List,,,,,,,,,,,,,,,,,,,,,,27-Feb,CA/EN Comparison List,Sears Optical,In Progress,,,,
+Data Layer Meeting with Rosetta,,,,,,,,,,,,,,,,,,,,,,6-Mar,,Stratigent/Sears Optical,,,,,
+Data Layer Documentation Development,,,,,,,,,,,,,,,,,,,,,,20-Mar,Data Layer Document,Stratigent,,,,,
+SDD Development,,,,,,,,,,,,,,,,,,,,,,20-Mar,SDD,Stratigent,,,,,
+SDD/Data Layer Signoff,,,,,,,,,,,,,,,,,,,,,,27-Mar,Signoff,Sears Optical,,,,,
+Tealium Rule Creation,,,,,,,,,,,,,,,,,,,,,,5-Jun,Tealium Rules Implemented,Stratigent,,,,,
+QA/UAT,,,,,,,,,,,,,,,,,,,,,,15-Jun,QA Defect Log,Stratigent,,,,,
+Defect Resolution,,,,,,,,,,,,,,,,,,,,,,19-Jun,Resolved Defects,Rosetta,,,,,
+Site Go Live,,,,,,,,,,,,,,,,,,,,,,24-Jun,,Rosetta,,,,,
+Production QA,,,,,,,,,,,,,,,,,,,,,,24-Jun,Completed Production QA,Stratigent,,,,,
+Report Creation,,,,,,,,,,,,,,,,,,,,,,3-Jul,Completed Reports,Stratigent,,,,,
+Knowledge Transfer,,,,,,,,,,,,,,,,,,,,,,10-Jul,Completed Knowledge Transfer,Stratigent/Sears Optical,,,,,
+Project Management,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Status updates, scheduling resources, etc.",,,,,,,,,,,,,,,,,,,,,,10-Jul,,Stratigent,In Progress,,,,
+Project complete,,,,,,,,,,,,,,,,,,,,,,10-Jul,Desktop Site Implementation (EN/CA),Stratigent/Sears Optical,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -3,17 +3,40 @@
 
 _Sample documents: Sears optical looks like it has a complete set._
 
-1. Business Requirement Docs ([BRD](https://www.dropbox.com/s/3ul75hyeezwkifh/Sears%20Optical%20Business%20Requirements.xlsx?dl=0 (edited)))
-	* Basic description of what is in BRD
+DATA | BRD | SDR | DLG | QA
+:-- | :-: | :-: | :-: | :-:
+Internal Contacts | X | | | 
+Client Contacts | X | | | 
+Tasks List | X | | |
+Tasks Schedule | X | | |
+Task Deadline | X | | |
+Task Deliverable | X | | |
+Task Assignment | X | | |
+Task Status | X | | |
+Custom Metrics: by Implementation Strategy | | X | |
+Custom Metrics: Map | | X | |
+Custom Metrics: Implemented | | X | |
+Custom Metrics: Where, When To Set | | X | |
+Custom Metrics: Setting Example | | X | |
+Custom Metrics: Re-allocated | | X | |
+Custom Metrics: Used For | | X | |
+Custom Metrics: CC | | X | |
+Custom Metrics: Notes | | X | |
+
+1. Business Requirement Document ([BRD](https://www.dropbox.com/s/3ul75hyeezwkifh/Sears%20Optical%20Business%20Requirements.xlsx?dl=0 (edited)))
+	* A breakdown of tasks, with related dates, deliverable, assignment and status
 	* _Process to convert the data to json:_
 		1. Delete rows that were not keys (Flare and graphics)
+		2. Merge all of the week/date cells
 		2. Export doc as CSV
 		3. Use an [online csv to json converter](http://www.csvjson.com/csv2json)
+		4. Cleaned up Contacts by removing unnecessary field and changing title for client contact 
 	* Files created:
 
 			Name | Needed? | CSV | JSON
 			:-- | :-- | :-- | :--
-			... | ... | /csv/BRD/... | /json/...
+			Contacts | ... | /csv/BRD/Contacts-Table 1.csv | /json/brd-contact.json
+			Project Plan | ... | /csv/BRD/Project Plan-Table 1.csv | /json/...
 
 * Solution Design Requirements ([SDR](https://www.dropbox.com/s/mcordxd0da1913f/Luxottica%20Global%20SDR-Sears%20Optical.xlsx?dl=0))
 	* This living documentation contains the implementation strategy for  Luxottica Retail.
