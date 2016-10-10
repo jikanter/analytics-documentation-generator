@@ -7,8 +7,8 @@ _Sample documents: Sears optical looks like it has a complete set._
 
 DATA | BRD | SDR | DLG | QA
 :-- | :-: | :-: | :-: | :-:
-Internal Contacts | X | | | 
-Client Contacts | X | | | 
+Contacts: Internal | X | | | 
+Contacts: Client | X | | | 
 Tasks List | X | | |
 Tasks Schedule | X | | |
 Task Deadline | X | | |
@@ -24,6 +24,20 @@ Custom Metrics: Re-allocated | | X | |
 Custom Metrics: Used For | | X | |
 Custom Metrics: CC | | X | |
 Custom Metrics: Notes | | X | |
+Tag Specifications: Page - Element | | | X |
+Tag Specifications: Request Type | | | X |
+Tag Specifications: Site_Events | | | X |
+Tag Specifications: Global Variables | | | X |
+Business Requirements: Name | | | | X
+Business Requirements: Description | | | | X
+Business Requirements: Expected Result | | | | X
+Business Requirements: Validation: Pass/Fail | | | | X
+Business Requirements: Validation: URLs | | | | X
+Business Requirements: Validation: Timestamp | | | | X
+Business Requirements: Validation: Browser | | | | X
+Business Requirements: Validation: Screenshot | | | | X
+Business Requirements: Validation: dataLayer Output | | | | X
+Business Requirements: Validation: Notes | | | | X
 
 ### A detailed breakdown of Sears Documents (Probably too deep for this part of the process)
 
