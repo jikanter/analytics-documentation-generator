@@ -3,6 +3,8 @@
 
 _Sample documents: Sears optical looks like it has a complete set._
 
+### Data in documents by genre or "page"
+
 DATA | BRD | SDR | DLG | QA
 :-- | :-: | :-: | :-: | :-:
 Internal Contacts | X | | | 
@@ -22,6 +24,8 @@ Custom Metrics: Re-allocated | | X | |
 Custom Metrics: Used For | | X | |
 Custom Metrics: CC | | X | |
 Custom Metrics: Notes | | X | |
+
+### A detailed breakdown of Sears Documents (Probably too deep for this part of the process)
 
 1. Business Requirement Document ([BRD](https://www.dropbox.com/s/3ul75hyeezwkifh/Sears%20Optical%20Business%20Requirements.xlsx?dl=0 (edited)))
 	* A breakdown of tasks, with related dates, deliverable, assignment and status
@@ -83,7 +87,7 @@ Custom Metrics: Notes | | X | |
 			:-- | :-- | :-- | :--
 			QA Doc | YES | /csv/qa.csv | /json/qa.json 
 
-###MASTER MAP...
+###MASTER MAP, or a fina output, if processed
 Key Name | Value | Gobal | BRD | SDR | DLG | QA
 :-- | :-- | :-: | :-: | :-: | :-: | :-:
 Key key | lorem ipsum | X | 0 | 0 | 0 | 0
