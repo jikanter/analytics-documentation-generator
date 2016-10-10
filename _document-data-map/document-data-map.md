@@ -1,36 +1,46 @@
 # Stratigent Document Generator:
 ## The Data Map
 
-_Sample documents: Sears optical looks like it has a complete set._
+_Sample documents:_
+
+* [Sears optical BRD](https://www.dropbox.com/s/3ul75hyeezwkifh/Sears%20Optical%20Business%20Requirements.xlsx?dl=0 (edited))
+* [Sears optical SDR](https://www.dropbox.com/s/mcordxd0da1913f/Luxottica%20Global%20SDR-Sears%20Optical.xlsx?dl=0)
+* [Sears optical DLG](https://www.dropbox.com/s/dqxq78nrmcdzk46/SearsOptical-Data%20Layer%20Map-150327.xlsx?dl=0)
+* [Sears optical QA](https://www.dropbox.com/s/aser78zvyv13ip8/Sears%20Optical%20-%20DEV%20Testing%206.15.xlsx?dl=0)
+* [Remy Martin SDR](https://www.dropbox.com/home/Remy%20USA/analytics%20solution/Documentation/SDR?preview=RemyMartin.com+US-GA+SDR-160922.docx)
+* [Remy Martin DLG](https://www.dropbox.com/home/Remy%20USA/analytics%20solution/Documentation/DLG?preview=RemyMartin-Data+Layer+Guide+GTM+Implementation-160922.docx)
+* [Remy Martin DLG QA](https://www.dropbox.com/home/Remy%20USA/analytics%20solution/Documentation/DLG?preview=Remy+Martin+Data+Layer+QA+160923.xlsx)
 
 ### Data in documents by genre or "page"
 
-DATA | BRD | SDR | DLG | QA
-:-- | :-: | :-: | :-: | :-:
-Contacts: Internal | X | | | 
-Contacts: Client | X | | | 
-Tasks List | X | | |
+DATA | BRD | SDR | DLG | QA | AKA
+:-- | :-: | :-: | :-: | :-: | :-:
+Contacts: Internal | X | | | | Stakeholders
+Contacts: Client | X | | | | Stakeholders
+Tasks List | X | | | |
 Tasks Schedule | X | | |
 Task Deadline | X | | |
 Task Deliverable | X | | |
 Task Assignment | X | | |
 Task Status | X | | |
-Custom Metrics: by Implementation Strategy | | X | |
-Custom Metrics: Map | | X | |
-Custom Metrics: Implemented | | X | |
-Custom Metrics: Where, When To Set | | X | |
-Custom Metrics: Setting Example | | X | |
-Custom Metrics: Re-allocated | | X | |
-Custom Metrics: Used For | | X | |
-Custom Metrics: CC | | X | |
-Custom Metrics: Notes | | X | |
+General Settings | | X | |
+Product Linking | | X
+Channel Settings | | X
+Custom Dimensions | | X
+Custom Metrics | | X | |
+Views | | X
+View Settings | | X
+Tagging Design and Logic | | X | | X
+Program Dependencies | | | X
+Google Tag Manager Implementation | | | X
+Global Requirements | | | X | X |
 Tag Specifications: Page - Element | | | X |
 Tag Specifications: Request Type | | | X |
 Tag Specifications: Site_Events | | | X |
 Tag Specifications: Global Variables | | | X |
-Business Requirements: Name | | | | X
-Business Requirements: Description | | | | X
-Business Requirements: Expected Result | | | | X
+Business Requirements: Name | | | X | X
+Business Requirements: Description | | | X | X
+Business Requirements: Expected Result | | | X | X
 Business Requirements: Validation: Pass/Fail | | | | X
 Business Requirements: Validation: URLs | | | | X
 Business Requirements: Validation: Timestamp | | | | X
@@ -38,70 +48,3 @@ Business Requirements: Validation: Browser | | | | X
 Business Requirements: Validation: Screenshot | | | | X
 Business Requirements: Validation: dataLayer Output | | | | X
 Business Requirements: Validation: Notes | | | | X
-
-### A detailed breakdown of Sears Documents (Probably too deep for this part of the process)
-
-1. Business Requirement Document ([BRD](https://www.dropbox.com/s/3ul75hyeezwkifh/Sears%20Optical%20Business%20Requirements.xlsx?dl=0 (edited)))
-	* A breakdown of tasks, with related dates, deliverable, assignment and status
-	* _Process to convert the data to json:_
-		1. Delete rows that were not keys (Flare and graphics)
-		2. Merge all of the week/date cells
-		2. Export doc as CSV
-		3. Use an [online csv to json converter](http://www.csvjson.com/csv2json)
-		4. Cleaned up Contacts by removing unnecessary field and changing title for client contact 
-	* Files created:
-
-			Name | Needed? | CSV | JSON
-			:-- | :-- | :-- | :--
-			Contacts | ... | /csv/BRD/Contacts-Table 1.csv | /json/brd-contact.json
-			Project Plan | ... | /csv/BRD/Project Plan-Table 1.csv | /json/...
-
-* Solution Design Requirements ([SDR](https://www.dropbox.com/s/mcordxd0da1913f/Luxottica%20Global%20SDR-Sears%20Optical.xlsx?dl=0))
-	* This living documentation contains the implementation strategy for  Luxottica Retail.
-	* _Process to convert the data to json:_
-		1. Delete rows that were not keys (Flare and graphics)
-		2. Export doc as CSV
-		3. Use an [online csv to json converter](http://www.csvjson.com/csv2json)
-	* Files created:
-
-			Name | Needed? | CSV | JSON
-			:-- | :-- | :-- | :--
-			| | /csv/SDR/cc-Table 1.csv | /json/...
-			| | /csv/SDR/Custom Metric by Strategy-Table 1.csv | /json/...
-			| | /csv/SDR/Custom Metric Map-Table 1.csv | /json/...
-			| | /csv/SDR/Implemented-Table 1.csv | /json/...
-			| | /csv/SDR/Notes-Table 1.csv | /json/...
-			| | /csv/SDR/Re-allocated Metrics-Table 1.csv | /json/...
-			| | /csv/SDR/Setting Example-Table 1.csv | /json/...
-			| | /csv/SDR/Used For-Table 1.csv | /json/...
-			| | /csv/SDR/Welcome-Table 1.csv | /json/...
-			| | /csv/SDR/Where, When to Set-Table 1.csv | /json/...
-
-* _dataLayer Guide ([DLG](https://www.dropbox.com/s/dqxq78nrmcdzk46/SearsOptical-Data%20Layer%20Map-150327.xlsx?dl=0))
-	* Basic description of what is in a dLG 
-	* _Process to convert the data to json:_
-		1. Delete rows that were not keys (Flare and graphics)
-		2. Export doc as CSV
-		3. Use an [online csv to json converter](http://www.csvjson.com/csv2json)
-	* Files created:
-
-			Name | Needed? | CSV | JSON
-			:-- | :-- | :-- | :--
-			Data Layer Guide | YES | /csv/_dataLayerGuide.csv | /json/_dataLayerGuide.json
-
-* Quality Assurance ([QA](https://www.dropbox.com/s/aser78zvyv13ip8/Sears%20Optical%20-%20DEV%20Testing%206.15.xlsx?dl=0))
-	* Basic description of what is in QA 
-	* _Process to convert the data to json:_
-		1. Delete rows that were not keys (Flare and graphics)
-		2. Export doc as CSV
-		3. Use an [online csv to json converter](http://www.csvjson.com/csv2json)
-	* Files created:
-
-			Name | Needed? | CSV | JSON
-			:-- | :-- | :-- | :--
-			QA Doc | YES | /csv/qa.csv | /json/qa.json 
-
-###MASTER MAP, or a fina output, if processed
-Key Name | Value | Gobal | BRD | SDR | DLG | QA
-:-- | :-- | :-: | :-: | :-: | :-: | :-:
-Key key | lorem ipsum | X | 0 | 0 | 0 | 0
