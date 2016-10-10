@@ -13,16 +13,18 @@ _Sample documents:_
 
 ### Data in documents by genre or "page"
 
-DATA | BRD | SDR | DLG | QA | AKA
-:-- | :-: | :-: | :-: | :-: | :-:
-Contacts: Internal | X | | | | Stakeholders
-Contacts: Client | X | | | | Stakeholders
-Tasks List | X | | | |
-Tasks Schedule | X | | |
-Task Deadline | X | | |
-Task Deliverable | X | | |
-Task Assignment | X | | |
-Task Status | X | | |
+DATA | BRD | SDR | DLG | QA | AKA | Target Audience
+:-- | :-: | :-: | :-: | :-: | :-: | :-:
+__Contacts__ | | | | | Stakeholders
+↳ Internal | X
+↳ Client | X
+__Tasks__ |
+↳ List | X | | | |
+↳ Schedule | X | | |
+↳ Deadline | X | | |
+↳ Deliverable | X | | |
+↳ Assignment | X | | |
+↳ Status | X | | |
 General Settings | | X | |
 Product Linking | | X
 Channel Settings | | X
@@ -34,17 +36,19 @@ Tagging Design and Logic | | X | | X
 Program Dependencies | | | X
 Google Tag Manager Implementation | | | X
 Global Requirements | | | X | X |
-Tag Specifications: Page - Element | | | X |
-Tag Specifications: Request Type | | | X |
-Tag Specifications: Site_Events | | | X |
-Tag Specifications: Global Variables | | | X |
-Business Requirements: Name | | | X | X
-Business Requirements: Description | | | X | X
-Business Requirements: Expected Result | | | X | X
-Business Requirements: Validation: Pass/Fail | | | | X
-Business Requirements: Validation: URLs | | | | X
-Business Requirements: Validation: Timestamp | | | | X
-Business Requirements: Validation: Browser | | | | X
-Business Requirements: Validation: Screenshot | | | | X
-Business Requirements: Validation: dataLayer Output | | | | X
-Business Requirements: Validation: Notes | | | | X
+__Tag Specifications__ |
+↳ Page - Element | | | X |
+↳ Request Type | | | X |
+↳ Site_Events | | | X |
+↳ Global Variables | | | X |
+__Business Requirements__ |
+↳ Name | | | X | X
+↳ Description | | | X | X
+↳ Expected Result | | | X | X
+↳ Validation: Pass/Fail | | | | X
+↳ Validation: URLs | | | | X
+↳ Validation: Timestamp | | | | X
+↳ Validation: Browser | | | | X
+↳ Validation: Screenshot | | | | X
+↳ Validation: dataLayer Output | | | | X
+↳ Validation: Notes | | | | X
