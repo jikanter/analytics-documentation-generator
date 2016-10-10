@@ -1,5 +1,5 @@
-#Stratigent Document Generator:
-##The Map
+# Stratigent Document Generator:
+## The Data Map
 
 _Sample documents: Sears optical looks like it has a complete set._
 
@@ -13,7 +13,7 @@ _Sample documents: Sears optical looks like it has a complete set._
 
 			Name | Needed? | CSV | JSON
 			:-- | :-- | :-- | :--
-			... | ... | /csv/SDR/... | /json/...
+			... | ... | /csv/BRD/... | /json/...
 
 * Solution Design Requirements ([SDR](https://www.dropbox.com/s/mcordxd0da1913f/Luxottica%20Global%20SDR-Sears%20Optical.xlsx?dl=0))
 	* This living documentation contains the implementation strategy for  Luxottica Retail.
@@ -60,7 +60,7 @@ _Sample documents: Sears optical looks like it has a complete set._
 			:-- | :-- | :-- | :--
 			QA Doc | YES | /csv/qa.csv | /json/qa.json 
 
-
+###MASTER MAP...
 Key Name | Value | Gobal | BRD | SDR | DLG | QA
 :-- | :-- | :-: | :-: | :-: | :-: | :-:
 Key key | lorem ipsum | X | 0 | 0 | 0 | 0
