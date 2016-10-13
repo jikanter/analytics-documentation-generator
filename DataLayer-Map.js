@@ -22,7 +22,20 @@
  * You can also generate the comments yourself by following the directions in the README.md 
  * Please note that this is not the actual data layer, but documentation about the data layer
  * 
- * I am a business user. I am editing some documentation.
+ * 
+ * 
+ * 
+ * The Business Requirements document could go here
+ * 
+ * Our financial client would like to track the following things on their website
+ * 
+ * 1. Click stream data for transferring cash to and from their account
+ * 2. Click stream data for creating an account
+ * 3. Watching Financial Education videos on how this would work
+ * 
+ * 
+ * 
+ *
  *
  */
 /**
