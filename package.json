@@ -7,7 +7,8 @@
     "sdr": "./doc.sh run sdr",
     "tag-map": "./doc.sh run tag-map",
     "publish": "./doc.sh publish",
-    "run": "./doc.sh run"
+    "run": "./doc.sh run",
+    "start": "./doc.sh server"
   },
   "author": "Stratigent, an Ebiquity company || Jordan Kanter",
   "license": "ISC",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://gitlab.com/jikanter/Documentation-Generator#README",
   "dependencies": {
+    "express": "^4.14.0",
     "jsdoc": "^3.4.2",
     "to-csv": "^0.1.1"
   }

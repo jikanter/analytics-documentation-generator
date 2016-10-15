@@ -24,7 +24,7 @@
  * 
  * 
  * 
- * 
+ * <p>
  * The Business Requirements document could go here
  * 
  * Our financial client would like to track the following things on their website
@@ -32,10 +32,7 @@
  * 1. Click stream data for transferring cash to and from their account
  * 2. Click stream data for creating an account
  * 3. Watching Financial Education videos on how this would work
- * 
- * 
- * 
- *
+ * </p>
  *
  */
 /**
