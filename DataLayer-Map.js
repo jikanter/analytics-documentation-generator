@@ -22,8 +22,6 @@
  * You can also generate the comments yourself by following the directions in the README.md 
  * Please note that this is not the actual data layer, but documentation about the data layer
  * 
- * 
- * 
  * <p>
  * The Business Requirements document could go here
  * 
@@ -35,11 +33,24 @@
  * </p>
  *
  */
+
+/**
+ * @useraction Navigate to the homepage
+ * @action Populate Hero Variant
+ * @wireframe {@link}
+ * @populate
+ * @campaign
+ * @variants
+ * @success_metric What would a successful test look like
+ * @target Your target audience for the particular test (or target segment)
+ */
+
 /**
  * The UA object contains United's internal Data Layer. It is populated by United IT and contains Application Data
  * @type {Object}
  * @namespace
  */
+
 var UA = {};
 
 /**

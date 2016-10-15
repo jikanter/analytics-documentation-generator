@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 #PUBLISH_TO=/c/Users/jordan.kanter/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/United/
 PUBLISH_TO=/Users/admin/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/United/
 # remove 64 from MINGW
@@ -11,6 +11,9 @@ fi
 
 if [ "${1}" = "run" ] && [ "${2}" = "" ]; then
   node_modules/jsdoc/jsdoc.js --verbose DataLayer-Map.js
+elif [ "${1}" = "run" ] && [ "${2}" = "server" ]; then
+  nodemon server/ui.js
+  nodemon server/static.js
 elif [ "${1}" = "run" ] && [ "${2}" = "sdr" ]; then
   echo "generating an sdr"
   node_modules/jsdoc/jsdoc.js --verbose DataLayer-Map.js
