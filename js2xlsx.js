@@ -16,13 +16,15 @@ var outRows = [];
   outRows.push(["Generated-Tag-Map", ind, c]);
 });
 
-/* set up the workbook */
+/* set up the workbook. Docs are weird because I couldn't find anywhere it
+ * states explicitly that a workbook is just an object */
 var wb = {};
 wb.Props = {};
 wb.Props.Title = "Introductory Excel Worksheet";
 wb.SheetNames = [];
 wb.Sheets = [];
 
+// create a worksheet from an array of arrays
 var ws = xlsx.utils.aoa_to_sheet(outRows);
 
 // add the sheet to the workbook
