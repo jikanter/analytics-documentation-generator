@@ -6,7 +6,7 @@ var url = require('url');
 var fs = require('fs');
 
 var config = {
-  staticHost: 'localhost',
+  staticHost: '192.168.2.69',
   staticPort: process.env.STATIC_PORT || 9001,
   serverPort: process.env.SERVER_PORT || 8125,
 };
