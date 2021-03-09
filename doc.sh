@@ -38,4 +38,6 @@ elif [ "${1}" = "run-csv" ]; then
 elif [ "${1}" = "run-pdf" ]; then
   # just experimental. Do not use
   ./js2pdf.js
+elif [ "${1}" = "run-excel" or "${1}" = "run-xslx" ]; then
+  ./js2xlsx.js
 fi

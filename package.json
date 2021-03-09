@@ -27,6 +27,9 @@
   "dependencies": {
     "express": "^4.14.0",
     "jsdoc": "^3.4.2",
-    "to-csv": "^0.1.1"
+    "to-csv": "^0.1.1",
+    "csvtojson": "^1.1.7",
+    "json2csv": "^3.10.0",
+    "xlsx": "^0.11.3"
   }
 }
