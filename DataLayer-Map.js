@@ -79,7 +79,7 @@ Bootstrapper.dataObject = {};
 /**
  * The function for adding data to the data object for the data object
  * @type {Function}
- * @constructor Can potentially construct a namespace
+ * @constructor DataObject
  * @see {Bootstrapper.dataObject}
  * @param {String} key   the key for the data object
  * @param {String} value  the value for the key object
