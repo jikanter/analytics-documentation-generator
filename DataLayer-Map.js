@@ -67,7 +67,7 @@ var Bootstrapper = Bootstrapper || {};
 /**
  * The global data object. Uses Ensighten for storage
  * @type {Object}
- * @see {@link Bootstrapper}
+ * @see {Bootstrapper}
  * @namespace
  * @sdr _dl
  * @useraction Click
@@ -79,7 +79,8 @@ Bootstrapper.dataObject = {};
 /**
  * The function for adding data to the data object for the data object
  * @type {Function}
- * @see {@link Bootstrapper.dataObject}
+ * @constructor Can potentially construct a namespace
+ * @see {Bootstrapper.dataObject}
  * @param {String} key   the key for the data object
  * @param {String} value  the value for the key object
  * @param {String} layer   the layer for the key-value pair
@@ -140,7 +141,7 @@ Bootstrapper.dataObject.global = {};
 /**
  * The page scope of the data object. Populated with page specific data.
  * @type {Object}
- * @see {@link Bootstrapper.dataObject}
+ * @see {Bootstrapper.dataObject}
  * @namespace
  */
 Bootstrapper.dataObject.page = {};
@@ -156,28 +157,28 @@ Bootstrapper.dataObject.pulse = {};
 /**
  * The testing scope of the data object. Populated with testing data
  * @type {Object}
- * @see {@link Bootstrapper.dataObject}
+ * @see {Bootstrapper.dataObject}
  * @namespace
  */
 Bootstrapper.dataObject.testing = {};
 
 /**
  * Whether or not the data layer is loaded. Allowed values are 0 and 1
- * @see {@link Bootstrapper.dataObject}
+ * @see {Bootstrapper.dataObject}
  * @type {Integer}
  */
 Bootstrapper.dataObject.dataLayerLoaded = 0;
 
 /**
  * Whether or not the ajax data layer is loaded. Allowed values are 0 and 1 (Can this be greater than 1?)
- * @see {@link Bootstrapper.dataObject}
+ * @see {Bootstrapper.dataObject}
  * @type {Integer}
  */
 Bootstrapper.dataObject.ajaxDatalayerLoaded = 0;
 
 /**
  * Third party tagging - Adara
- * @see {@link Bootstrapper.dataObject.global}
+ * @see {Bootstrapper.dataObject.global}
  * @type {Object}
  * @namespace
  */
@@ -245,7 +246,7 @@ Bootstrapper.dataObject.global.campaign.asset_type = "--";
 
 /**
  * The global campaign direct marketing agency. Defaults to <code>"--"</code>
- * @see {@link Bootstrapper.dataObject.global}
+ * @see {Bootstrapper.dataObject.global}
  * @type {String}
  */
 Bootstrapper.dataObject.global.campaign.campaign_dma = "--";
