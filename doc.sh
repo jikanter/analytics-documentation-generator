@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 #PUBLISH_TO=/c/Users/jordan.kanter/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/United/
 #PUBLISH_TO=/Users/admin/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/United/
 PUBLISH_TO=$(pwd)/../../doc
