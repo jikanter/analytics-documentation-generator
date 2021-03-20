@@ -1,8 +1,10 @@
 /**
  * @file DataLayer-Map.js
  * @author Jordan Kanter <jordan.kanter@stratigent.com>
- * @fileoverview Documents the United DataLayer
- * The Data Object Map for United. Includes both {@link Bootstrapper.dataObject} and {@link UA}
+ * @fileoverview Documents an Airlines' Digital DataLayer
+ * The Data Object Map for an airline build. Includes both {@link Bootstrapper.dataObject} and {@link UA}
+ * Objects. {@link https://ensighten.com} was used to build the implementation, but this
+ * strategy can be used for any Tag Manager.  
  * Notes:
  * I have included documentation for {@link Bootstrapper.dataObject} and {@link UA} in 3 forms
  * <ol>
@@ -46,7 +48,7 @@
  */
 
 /**
- * The UA object contains United's internal Data Layer. It is populated by United IT and contains Application Data
+ * The UA object contains the Airlines's internal Data Layer. It is populated by Airline IT and contains Application Data
  * @type {Object}
  * @namespace
  */
@@ -54,7 +56,7 @@
 var UA = {};
 
 /**
- * @description The Bootstrapper object contains the entirety of Stratigent's Ensighten namespace
+ * @description The Bootstrapper object contains the entirety of Stratigent's {@link Ensighten} namespace
  * It contains all of the ensighten callbacks as well as the Data Layer itself.
  *
  * @type {Object}
@@ -65,7 +67,7 @@ var Bootstrapper = Bootstrapper || {};
 /**
  * The global data object. Uses Ensighten for storage
  * @type {Object}
- * @see {@link Bootstrapper}
+ * @see {Bootstrapper}
  * @namespace
  * @sdr _dl
  * @useraction Click
@@ -77,7 +79,8 @@ Bootstrapper.dataObject = {};
 /**
  * The function for adding data to the data object for the data object
  * @type {Function}
- * @see {@link Bootstrapper.dataObject}
+ * @constructor Can potentially construct a namespace
+ * @see {Bootstrapper.dataObject}
  * @param {String} key   the key for the data object
  * @param {String} value  the value for the key object
  * @param {String} layer   the layer for the key-value pair
@@ -99,7 +102,7 @@ Bootstrapper.dataObject.addData = function (key, value, layer, scope, session) {
  *
  * <p>For example:
  * <pre>Bootstrapper.dataObject.getData('partnerID', 'adara', 'global') === Bootstrapper.dataObject['global']['adara']['partnerID'];</pre>
- * On <a href="https://stage.united.com/ual/">United Staging</a>, both the function and the data lookup
+ * On <a href="https://stage.Airline.com/ual/">Airline Staging</a>, both the function and the data lookup
  * return the integer <code>1020</code>. Feel free to test for yourself in the javascript console on the page
  *
  *
@@ -115,7 +118,7 @@ Bootstrapper.dataObject.addData = function (key, value, layer, scope, session) {
 Bootstrapper.dataObject.getData = function (key, layer, scope) {};
 
 /**
- * Identical to {@link Bootstrapper.dataObject.getData}, but returns the United
+ * Identical to {@link Bootstrapper.dataObject.getData}, but returns the Airline
  * empty string value of <code>"--"</code> when the tuple cannot be found.
  * @type {Function}
  * @return {Dynamic}
@@ -128,7 +131,7 @@ Bootstrapper.dataObject._getData = function (key, layer, scope) {
  * The global scope of the data object. Can be queried with {@link Bootstrapper.dataObject.addData}
  * and queried with {@link Bootstrapper.dataObject.getData}. These functions can only query up to 3
  * layers deep, otherwise the data must be retrieved directly from the object.
- * This scope contains all of the other scopes maintained for the united site.
+ * This scope contains all of the other scopes maintained for the Airline site.
  * @type {Object}
  * @see {@link Bootstrapper.dataObject}
  * @namespace
@@ -138,7 +141,7 @@ Bootstrapper.dataObject.global = {};
 /**
  * The page scope of the data object. Populated with page specific data.
  * @type {Object}
- * @see {@link Bootstrapper.dataObject}
+ * @see {Bootstrapper.dataObject}
  * @namespace
  */
 Bootstrapper.dataObject.page = {};
@@ -154,28 +157,28 @@ Bootstrapper.dataObject.pulse = {};
 /**
  * The testing scope of the data object. Populated with testing data
  * @type {Object}
- * @see {@link Bootstrapper.dataObject}
+ * @see {Bootstrapper.dataObject}
  * @namespace
  */
 Bootstrapper.dataObject.testing = {};
 
 /**
  * Whether or not the data layer is loaded. Allowed values are 0 and 1
- * @see {@link Bootstrapper.dataObject}
+ * @see {Bootstrapper.dataObject}
  * @type {Integer}
  */
 Bootstrapper.dataObject.dataLayerLoaded = 0;
 
 /**
  * Whether or not the ajax data layer is loaded. Allowed values are 0 and 1 (Can this be greater than 1?)
- * @see {@link Bootstrapper.dataObject}
+ * @see {Bootstrapper.dataObject}
  * @type {Integer}
  */
 Bootstrapper.dataObject.ajaxDatalayerLoaded = 0;
 
 /**
  * Third party tagging - Adara
- * @see {@link Bootstrapper.dataObject.global}
+ * @see {Bootstrapper.dataObject.global}
  * @type {Object}
  * @namespace
  */
@@ -243,7 +246,7 @@ Bootstrapper.dataObject.global.campaign.asset_type = "--";
 
 /**
  * The global campaign direct marketing agency. Defaults to <code>"--"</code>
- * @see {@link Bootstrapper.dataObject.global}
+ * @see {Bootstrapper.dataObject.global}
  * @type {String}
  */
 Bootstrapper.dataObject.global.campaign.campaign_dma = "--";
@@ -1370,7 +1373,7 @@ Bootstrapper.dataObject.setMPVars = function () {
 };
 
 /**
- * Internal United Application Data Namespace.
+ * Internal Airline Application Data Namespace.
  * Please note that all AppData is done as discovery. Ideally, in order to limit time spent in discovery
  * IT and The Web Development Unit would provide us with a document / schema like the one here.
  * @type {Object}
@@ -1380,7 +1383,7 @@ Bootstrapper.dataObject.setMPVars = function () {
 UA.AppData = {};
 
 /**
- * Internal United Application Data Data Namespace
+ * Internal Airline Application Data Data Namespace
  * @type {Object}
  * @see {@link UA.AppData}
  * @namespace
@@ -1388,7 +1391,7 @@ UA.AppData = {};
 UA.AppData.Data = {};
 
 /**
- * Internal United Data Session Namespace
+ * Internal Airline Data Session Namespace
  * @type {Object}
  * @see {@link UA}
  * @namespace
@@ -1397,14 +1400,14 @@ UA.AppData.Data.Session = {};
 
 /**
  *
- * Internal United Session language details.
+ * Internal Airline Session language details.
  */
 UA.AppData.Data.Session.LanguageCulture = "en";
 
 UA.AppData.Data.Session.POS = "US";
 
 /**
- * Internal United Data Shopping Cart Namespace
+ * Internal Airline Data Shopping Cart Namespace
  * @type {Object}
  * @see {@link UA.AppData.Data}
  * @namespace
@@ -1456,7 +1459,7 @@ UA.AppData.Data.Cart.Products[0] = {
 UA.AppData.Data.Cart.TransactionType = "Revenue";
 
 /**
- * Internal United Common Namespace
+ * Internal Airline Common Namespace
  * @type {Object}
  * @see {@link UA}
  * @namespace
@@ -1464,7 +1467,7 @@ UA.AppData.Data.Cart.TransactionType = "Revenue";
 UA.Common = {};
 
 /**
- * Internal United Locale Namespace
+ * Internal Airline Locale Namespace
  * @type {Object}
  * @see {@link UA}
  * @namespace
@@ -1472,7 +1475,7 @@ UA.Common = {};
 UA.Localize = {};
 
 /**
- * Internal United Locale Namespace
+ * Internal Airline Locale Namespace
  * @type {Object}
  * @see {@link UA}
  * @namespace
@@ -1480,7 +1483,7 @@ UA.Localize = {};
 UA.UI = {};
 
 /**
- * Internal United Utilities Namespace
+ * Internal Airline Utilities Namespace
  * @type {Object}
  * @see {@link UA}
  * @namespace
@@ -1488,7 +1491,7 @@ UA.UI = {};
 UA.Utilities = {};
 
 /**
- * Internal United Booking Namespace
+ * Internal Airline Booking Namespace
  * @type {Object}
  * @see {@link UA}
  * @namespace
@@ -1497,7 +1500,7 @@ UA.Booking = {};
 
 
 /**
- * Internal United Namespace for modifying a set of Search Results
+ * Internal Airline Namespace for modifying a set of Search Results
  * @type {Object}
  * @see {@link UA}
  * @namespace
@@ -1537,7 +1540,7 @@ UA.Booking.EditSearch.setRoundTrip = function () {
 };
 
 /**
- * Internal United Namespace for Booking Fare Rules
+ * Internal Airline Namespace for Booking Fare Rules
  * @type {Object}
  * @see {@link UA.Booking}
  * @namespace

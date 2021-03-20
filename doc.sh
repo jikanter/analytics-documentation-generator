@@ -1,6 +1,7 @@
-#!/bin/bash
-#PUBLISH_TO=/c/Users/jordan.kanter/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/United/
-PUBLISH_TO=/Users/admin/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/United/
+#!/bin/bash -x
+#PUBLISH_TO=/c/Users/jordan.kanter/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/Airline/
+#PUBLISH_TO=/Users/admin/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/Airline/
+PUBLISH_TO=$(pwd)/../../doc
 # remove 64 from MINGW
 PLATFORM=$(exec uname -s | cut -d "6" -f 1)
 REMOTE_HOST=
@@ -38,6 +39,6 @@ elif [ "${1}" = "run-csv" ]; then
 elif [ "${1}" = "run-pdf" ]; then
   # just experimental. Do not use
   ./js2pdf.js
-elif [ "${1}" = "run-excel" or "${1}" = "run-xslx" ]; then
+elif [[ "${1}" = "run-excel" || "${1}" = "run-xslx" ]]; then
   ./js2xlsx.js
 fi
