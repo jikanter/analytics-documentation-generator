@@ -1,6 +1,6 @@
 #!/bin/bash -x
-#PUBLISH_TO=/c/Users/jordan.kanter/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/United/
-#PUBLISH_TO=/Users/admin/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/United/
+#PUBLISH_TO=/c/Users/jordan.kanter/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/Airline/
+#PUBLISH_TO=/Users/admin/Dropbox\ \(Stratigent\)/Individual\ -\ Jordan/Clients/Airline/
 PUBLISH_TO=$(pwd)/../../doc
 # remove 64 from MINGW
 PLATFORM=$(exec uname -s | cut -d "6" -f 1)
