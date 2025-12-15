@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+const browser = await puppeteer.launch()
+const page = await browser.newPage()
+console.error("This needs to be implemented")
+await page.goto('file://')
